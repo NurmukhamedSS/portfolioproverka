@@ -1,0 +1,136 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: lightyellow;
+}
+
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+   
+.logo {
+font-size: 25px;
+color: darkblue;
+text-decoration: none;
+font-weight: bold;
+    
+}
+
+.navbar a {
+font-size: 18px;
+color: darkblue;
+text-decoration: none;
+font-weight: 500;
+margin-left: 35px;
+transition: 0.3s;
+}
+
+.navbar a:hover {
+color: black;
+}
+
+.Part1 {
+height: 100vh;
+display: flex;
+align-items: center;
+padding: 0 10%;
+color: darkblue;
+}
+
+.Part2 {
+max-width: 600px;
+}
+
+.Part1 h1 {
+font-size: 56px;
+font-weight: 500px;
+    
+}
+
+.Part1 p {
+font-size: 28px;
+font-weight: 100px;
+}
+
+.image-container {
+height: 10px;
+width: 10px;
+display: flex;
+align-items: center;
+padding: 0 10%;   
+}
+
+
+.button {
+position: relative;
+top: -8px;
+left: -8px;
+display: block;
+padding-left: 50px;
+color: darkblue;
+font-size: 50px;
+text-decoration: none;
+font-weight: 200;
+background-color: darkkhaki;
+padding: 17px 48px;
+transition: 0.3s;
+}
+
+.button:hover {
+top: 0;
+left: 0;
+}
+
+.button-wrapper {
+border: solid black 3px;
+height: fit-content;
+width: fit-content;
+
+}
+
+.button-box {
+    padding-left: 114px;
+}
+
+.info {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color: darkblue;
+}
+
+.info h2 {
+color: yellow;
+font-weight: 300;
+}
+
+.info2 {
+    max-width: 800px;
+}
+
+.accordion {
+    display: block;
+}
+.accordion-style {
+    padding-left: 600px;
+}
+.panel {
+    max-width: 600px;
+    color: darkblue;
+}
+
+.footer {
+    background-color: darkblue;
+}
